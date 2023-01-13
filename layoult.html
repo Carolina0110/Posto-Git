@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posto Git</title>
+    <link rel="stylesheet" href="layoultc.css">
+</head>
+<body>
+    <header>
+        <h1>Bem vindo ao posto Git!</h1>    
+
+    </header>
+
+<section>
+    <div class="preçoF">
+        <p>Tabela de Preços:</p>
+        <span>Álcool: R$5,39/L</span>
+        <span>Gasolina: R$6,94/L</span>
+        <span>Diesel: R$5,68/L</span>
+        <br> 
+        </br>
+        <!--<p>Digite 'A' se deseja abastecer com <strong>Àlcool</strong>. Digite 'G' se deseja abastecer com <strong>Gasolina</strong>. Digite 'D' se deseja abastecer com <strong>Diesel</strong>.</p> 
+        <input type="letter" name="txttipo" id="txttipo" min="0">-->
+        </div>    
+
+        <div class="select-button">
+            <button id="alcool">Álcool</button>
+            <button id="gasolina">Gasolina</button>
+            <button id="diesel">Diesel</button>
+        </div>
+
+        <br>
+
+        <div id="selecao">
+        </div>
+
+        <div>
+        <p>Digite a quantidade de litros:</p>
+        <input type="number" name="txtlitro" id="txtlitro" min="0">
+        </div>
+
+      <button id="continuar">Continuar</button>
+
+        <!-- <p>
+            <input type="button" value="Continuar" onclick="continuar()">
+        </p> -->
+
+        <div class="result" id="result">
+            <br>
+            Preencha os campos acima para ver o resultado
+        </div>
+    </section>
+
+        
+    </div>
+
+    <!--<div class="res" id="res">
+        Preencha os dados acima para ver o resultado!
+    </div>-->
+</section>
+
+<script src="calculos.js"></script>
+
+<footer>
+    <p>@ http_anna.c</p>
+</footer>
+
+</body>
+</html>
